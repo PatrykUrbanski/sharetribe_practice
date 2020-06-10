@@ -9,10 +9,10 @@ const { LatLng, LatLngBounds } = sdkTypes;
 // `predictionPlace` (util.types.place) properties.
 export default [
   {
-    id: 'default-helsinki',
+    id: 'default-wroclaw',
     predictionPlace: {
-      address: 'Helsinki, Finland',
-      bounds: new LatLngBounds(new LatLng(60.29783, 25.25448), new LatLng(59.92248, 24.78287)),
+      address: 'Wroclaw, Poland',
+      bounds: new LatLngBounds(new LatLng(51.113, 17.039), new LatLng(51.133, 17.067)),
     },
   },
   {
